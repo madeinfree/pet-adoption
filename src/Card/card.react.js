@@ -1,5 +1,5 @@
 import { h, Component } from 'preact'
-import Card from 'preact-material-components/Card';
+import { Card } from 'preact-material-components/dist';
 import 'preact-material-components/Card/style.css';
 import 'preact-material-components/Button/style.css';
 
