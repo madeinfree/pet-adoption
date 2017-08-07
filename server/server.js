@@ -8,7 +8,12 @@ app.use('/api/v1', express.static('data'))
 app.get('*', (req, res) => {
   res.send(`
     <html>
+      <html lang="en">
       <head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, width=device-width">
+        <meta name="description" content="臺北市開放認養動物，想要找個寵物陪伴嗎？">
+        <meta property="og:image" content="http://163.29.39.183/uploads/images/medium/26801a33-a6c2-4551-bd58-463cbd5ac2f7.jpg">
+        <meta charset="UTF-8">
         <title>臺北市開放認養動物</title>
         <style>
           * { margin: 0px; padding: 0px; }
