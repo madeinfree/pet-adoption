@@ -2,14 +2,18 @@ import { h, Component } from 'preact'
 
 const navigationStyle = {
   wrapper: {
-    height: 300,
+    height: 550,
     padding: 60,
     display: 'flex',
     justifyContent: 'center',
     backgroundColor: '#f0f0f0',
     borderBottom: '1px solid #ccc',
     textAlign: 'center',
-    fontSize: 40
+    fontSize: 40,
+    backgroundImage: 'url(http://163.29.39.183/uploads/images/medium/26801a33-a6c2-4551-bd58-463cbd5ac2f7.jpg)',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
   },
   contentTitle: {
     display: 'flex',
